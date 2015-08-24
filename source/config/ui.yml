@@ -69,7 +69,11 @@ navbar:
                 path: scatterplot
                 label: Scatter Plot
                 icon: ellipsis-h
+            treechart:
+                path: treechart
+                label: Tree Chart
+                icon: bar-chart
         menus:
-            authenticated: [search, narrative, dashboard, typebrowser, test, linechart, barchart, heatmap, scatterplot, divider, contact, divider]                
+            authenticated: [search, narrative, dashboard, typebrowser, test, linechart, barchart, heatmap, scatterplot, treechart, divider, contact, divider]                
             unauthenticated: [about, contact, divider, about_kbase, contact_us]
         

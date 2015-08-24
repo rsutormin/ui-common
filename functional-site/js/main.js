@@ -309,7 +309,8 @@ define([
                     {module: 'kb.panel.vis.linechart'},
                     {module: 'kb.panel.vis.barchart'},
                     {module: 'kb.panel.vis.heatmap'},
-                    {module: 'kb.panel.vis.scatterplot'}
+                    {module: 'kb.panel.vis.scatterplot'},
+                    {module: 'kb.panel.vis.treechart'}
                 ].map(function (panel) {
                     return requirePromise([panel.module], function (PanelModule) {
                         // this registers routes
