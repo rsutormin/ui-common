@@ -47,6 +47,13 @@ define([
                             hGrid : true,
                             xLabels : false,
 
+                            pointOver : function(d) {
+                                this.showToolTip({label : 'point over obj'});
+                            },
+                            pointOut : function(d) {
+                                this.hideToolTip();
+                            },
+
                             dataset : [
                                 {
                                     strokeColor : 'red',
@@ -80,18 +87,24 @@ define([
                                     width : 1,
                                     shape : 'circle',
                                     shapeArea : 64,
-                                    fillColor : 'red',
+                                    //fillColor : 'red',
                                 },
                                 {
                                     strokeColor : 'orange',
                                     label : 'jagged',
                                     values : [{x : 0, y : 180}, {x : 10, y : 160}, {x : 20, y : 140}, {x : 30, y : 120}, {x : 40, y : 100}, {x : 50, y : 80},
-                                        {x : 60, y : 60}, {x : 70, y : 40}, {x : 80, y : 20}, {x : 90, y : 0}, {x : 100, y : 20}, {x : 110, y : 40},
-                                        {x : 120, y : 60}, {x : 130, y : 80}, {x : 140, y : 100} ],
+                                        {x : 60, y : 60, label : 'label point 1'}, {x : 70, y : 40}, {x : 80, y : 20}, {x : 90, y : 0}, {x : 100, y : 20}, {x : 110, y : 40},
+                                        {x : 120, y : 60}, {x : 130, y : 80}, {x : 140, y : 100, label : 'label point 2'} ],
                                     width : 2,
                                     shape : 'square',
                                     shapeArea : 64,
                                     //fillColor : 'red',
+                                    pointOver : function(d) {
+                                        this.showToolTip({label : 'point over line'});
+                                    },
+                                    pointOut : function(d) {
+                                        this.hideToolTip();
+                                    }
                                 },
                                 {
                                     strokeColor : 'blue',

@@ -237,15 +237,13 @@ define(
                     .exit()
                         .remove();
 
-            for (var i = 0; i < this.dataset().length; i++) {
-
-                var line = this.dataset()[i];
+            this.dataset().forEach( function (line, i) {
 
                 if (line.shape == undefined) {
-                    continue;
+                    return;
                 }
 
-                var points = this.data('D3svg').select(this.region('chart')).selectAll('.point-' + line.label).data(line.values);
+                var points = $line.data('D3svg').select($line.region('chart')).selectAll('.point-' + line.label).data(line.values);
 
                 points
                     .enter()
@@ -254,8 +252,45 @@ define(
                             .attr("transform", function(d) { return "translate(" + $line.xScale()(d.x) + "," + $line.yScale()(d.y) + ")"; })
                             .attr('d', function (d) { return d3.svg.symbol().type(line.shape).size(line.shapeArea)() } )
                             .attr('fill', function(d) {return line.fillColor || line.strokeColor || $line.options.fillColor})
+                            .on('mouseover', function(d) {
+
+                                if ($line.options.overColor) {
+                                    d3.select(this)
+                                        .attr('fill', $line.options.overColor)
+                                }
+
+                                if (d.label) {
+                                    $line.showToolTip(
+                                        {
+                                            label : d.label,
+                                        }
+                                    );
+                                }
+                                else if (line.pointOver) {
+                                    line.pointOver.call($line, d);
+                                }
+                                else if ($line.options.pointOver) {
+                                    $line.options.pointOver.call($line, d);
+                                }
+                            })
+                            .on('mouseout', function(d) {
+                                if ($line.options.overColor) {
+                                    d3.select(this)
+                                        .attr('fill', function(d) {return line.fillColor || line.strokeColor || $line.options.fillColor})
+                                }
+
+                                if (d.label) {
+                                    $line.hideToolTip();
+                                }
+                                else if (line.pointOut) {
+                                    line.pointOut.call($line, d);
+                                }
+                                else if ($line.options.pointOut) {
+                                    $line.options.pointOut.call($line, d);
+                                }
+                            })
                     ;
-            }
+            });
 
             if (this.options.useHighlightLine) {
                 var highlight = this.data('D3svg').select(this.region('chart')).selectAll('.highlight').data([0]);

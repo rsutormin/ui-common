@@ -24,36 +24,41 @@ define([
                 function render() {
 
                     var tree = {
-                            "distance": 1.376457276,
+
+                            name:"able",
                             "children": [
                               {
-                                "distance": 1.792236429,
+
+name:"baker",
                                 "children": [
                                   {
-                                    "distance": 1.908214243,
+
+name:"charlie",
                                     "children": [
                                       {
-                                        "distance": 1.001656414,
+
+name:"d1",
                                         "children": [
                                           {
-                                            "distance": 1.008207384,
+
                                             "name": "Name: 552"
                                           },
                                           {
-                                            "distance": 1.008207384,
+
                                             "name": "Name: 2708"
                                           }
                                         ]
                                       },
                                       {
-                                        "distance": 0.5233165272,
+
+name:"d4",
                                         "children": [
                                           {
-                                            "distance": 1.486547271,
+
                                             "name": "Name: 3302"
                                           },
                                           {
-                                            "distance": 1.486547271,
+
                                             "name": "Name: 3826"
                                           }
                                         ]
@@ -61,40 +66,44 @@ define([
                                     ]
                                   },
                                   {
-                                    "distance": 0.8412192958,
+
+name:"d7",
                                     "children": [
                                       {
-                                        "distance": 1.390365115,
+
                                         "children": [
                                           {
-                                            "distance": 1.68649363,
+
                                             "name": "Name: 2360"
                                           },
                                           {
-                                            "distance": 1.68649363,
+
                                             "name": "Name: 3004"
                                           }
                                         ]
                                       },
                                       {
-                                        "distance": 0.9196819008,
+
+name:"d8",
                                         "children": [
                                           {
-                                            "distance": 1.157657024,
+
+name:"d9",
                                             "children": [
                                               {
-                                                "distance": 0.9995198202,
+
                                                 "name": "Name: 4162"
                                               },
                                               {
-                                                "distance": 0.3005282187,
+
+name:"d10",
                                                 "children": [
                                                   {
-                                                    "distance": 0.6989916016,
+
                                                     "name": "Name: 1541"
                                                   },
                                                   {
-                                                    "distance": 0.6989916016,
+
                                                     "name": "Name: 1940"
                                                   }
                                                 ]
@@ -102,21 +111,23 @@ define([
                                             ]
                                           },
                                           {
-                                            "distance": 0.6173554178,
+
+name:"d11",
                                             "children": [
                                               {
-                                                "distance": 1.539821426,
+
                                                 "name": "Name: 4037"
                                               },
                                               {
-                                                "distance": 0.8294065316,
+
+name:"d12",
                                                 "children": [
                                                   {
-                                                    "distance": 0.7104148946,
+
                                                     "name": "Name: 276"
                                                   },
                                                   {
-                                                    "distance": 0.7104148946,
+
                                                     "name": "Name: 1823"
                                                   }
                                                 ]
@@ -130,49 +141,57 @@ define([
                                 ]
                               },
                               {
-                                "distance": 0.3021339434,
+
+name:"d13",
                                 "children": [
                                   {
-                                    "distance": 1.12832085,
+
+name:"d14",
                                     "children": [
                                       {
-                                        "distance": 1.114624996,
+
+name:"D15",
                                         "children": [
                                           {
-                                            "distance": 1.414596951,
+
+name:"d16",
                                             "children": [
                                               {
-                                                "distance": 1.102751795,
+
+name:"d17",
                                                 "children": [
                                                   {
-                                                    "distance": 0.3212886469,
+
+name:"d18",
                                                     "children": [
                                                       {
-                                                        "distance": 0.326597288,
+
                                                         "name": "Name: 1943"
                                                       },
                                                       {
-                                                        "distance": 0.326597288,
+
                                                         "name": "Name: 1969"
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.1559698469,
+
+name:"d21",
                                                     "children": [
                                                       {
-                                                        "distance": 0.491916088,
+
                                                         "name": "Name: 275"
                                                       },
                                                       {
-                                                        "distance": 0.2705457942,
+
+name:"d23",
                                                         "children": [
                                                           {
-                                                            "distance": 0.2213702938,
+
                                                             "name": "Name: 1939"
                                                           },
                                                           {
-                                                            "distance": 0.2213702938,
+
                                                             "name": "Name: 1962"
                                                           }
                                                         ]
@@ -182,21 +201,23 @@ define([
                                                 ]
                                               },
                                               {
-                                                "distance": 0.4321463447,
+
+name:"D25",
                                                 "children": [
                                                   {
-                                                    "distance": 1.318491385,
+
                                                     "name": "Name: 1717"
                                                   },
                                                   {
-                                                    "distance": 0.4765368742,
+
+name:"D26",
                                                     "children": [
                                                       {
-                                                        "distance": 0.8419545108,
+
                                                         "name": "Name: 2370"
                                                       },
                                                       {
-                                                        "distance": 0.8419545108,
+
                                                         "name": "Name: 3215"
                                                       }
                                                     ]
@@ -206,49 +227,54 @@ define([
                                             ]
                                           },
                                           {
-                                            "distance": 0.4140375469,
+
+name:"d27",
                                             "children": [
                                               {
-                                                "distance": 1.112441842,
+
+name:"d28",
                                                 "children": [
                                                   {
-                                                    "distance": 0.8077857597,
+
                                                     "children": [
                                                       {
-                                                        "distance": 0.8309695327,
+
                                                         "name": "Name: 3089"
                                                       },
                                                       {
-                                                        "distance": 0.8309695327,
+
                                                         "name": "Name: 3691"
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.2533536077,
+
+name:"d29",
                                                     "children": [
                                                       {
-                                                        "distance": 0.8206270159,
+
+name:"d30",
                                                         "children": [
                                                           {
-                                                            "distance": 0.5647746687,
+
                                                             "name": "Name: 2273"
                                                           },
                                                           {
-                                                            "distance": 0.5647746687,
+
                                                             "name": "Name: 2869"
                                                           }
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.5663568321,
+
+name:"d31",
                                                         "children": [
                                                           {
-                                                            "distance": 0.8190448525,
+
                                                             "name": "Name: 926"
                                                           },
                                                           {
-                                                            "distance": 0.8190448525,
+
                                                             "name": "Name: 3610"
                                                           }
                                                         ]
@@ -258,62 +284,69 @@ define([
                                                 ]
                                               },
                                               {
-                                                "distance": 0.7895972065,
+
+name:"d32",
                                                 "children": [
                                                   {
-                                                    "distance": 1.219541215,
+
+name:"d33",
                                                     "children": [
                                                       {
-                                                        "distance": 0.7420587129,
+
                                                         "name": "Name: 610"
                                                       },
                                                       {
-                                                        "distance": 0.7420587129,
+
                                                         "name": "Name: 2927"
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.8135331682,
+
+name:"d34",
                                                     "children": [
                                                       {
-                                                        "distance": 0.6174569305,
+
+name:"d35",
                                                         "children": [
                                                           {
-                                                            "distance": 0.5306098289,
+
                                                             "name": "Name: 1773"
                                                           },
                                                           {
-                                                            "distance": 0.5306098289,
+
                                                             "name": "Name: 2840"
                                                           }
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.1365733057,
+
+name:"d36",
                                                         "children": [
                                                           {
-                                                            "distance": 0.4862423141,
+
+name:"d37",
                                                             "children": [
                                                               {
-                                                                "distance": 0.5252511397,
+
                                                                 "name": "Name: 923"
                                                               },
                                                               {
-                                                                "distance": 0.5252511397,
+
                                                                 "name": "Name: 1361"
                                                               }
                                                             ]
                                                           },
                                                           {
-                                                            "distance": 0.3908505488,
+
+name:"d38",
                                                             "children": [
                                                               {
-                                                                "distance": 0.620642905,
+
                                                                 "name": "Name: 120"
                                                               },
                                                               {
-                                                                "distance": 0.620642905,
+
                                                                 "name": "Name: 965"
                                                               }
                                                             ]
@@ -329,39 +362,45 @@ define([
                                         ]
                                       },
                                       {
-                                        "distance": 0.4455461505,
+
+name:"d39",
                                         "children": [
                                           {
-                                            "distance": 1.425536216,
+
+name:"d40",
                                             "children": [
                                               {
-                                                "distance": 0.6130064666,
+
+name:"d41",
                                                 "children": [
                                                   {
-                                                    "distance": 0.9870079816,
+
+name:"d42",
                                                     "children": [
                                                       {
-                                                        "distance": 0.3425072106,
+
+name:"d43",
                                                         "children": [
                                                           {
-                                                            "distance": 0.4662556515,
+
                                                             "name": "Name: 1934"
                                                           },
                                                           {
-                                                            "distance": 0.4662556515,
+
                                                             "name": "Name: 2895"
                                                           }
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.3305256258,
+
+name:"d44",
                                                         "children": [
                                                           {
-                                                            "distance": 0.4782372362,
+
                                                             "name": "Name: 638"
                                                           },
                                                           {
-                                                            "distance": 0.4782372362,
+
                                                             "name": "Name: 2863"
                                                           }
                                                         ]
@@ -369,56 +408,62 @@ define([
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.5086368895,
+
+name:"d45",
                                                     "children": [
                                                       {
-                                                        "distance": 0.5748175952,
+
+name:"d46",
                                                         "children": [
                                                           {
-                                                            "distance": 0.3749859298,
+
+name:"d47",
                                                             "children": [
                                                               {
-                                                                "distance": 0.3373304291,
+
                                                                 "name": "Name: 219"
                                                               },
                                                               {
-                                                                "distance": 0.3373304291,
+
                                                                 "name": "Name: 4296"
                                                               }
                                                             ]
                                                           },
                                                           {
-                                                            "distance": 0.2214705125,
+
+name:"d48",
                                                             "children": [
                                                               {
-                                                                "distance": 0.3194313182,
+
+name:"d49",
                                                                 "children": [
                                                                   {
-                                                                    "distance": 0.1714145283,
+
                                                                     "name": "Name: 39"
                                                                   },
                                                                   {
-                                                                    "distance": 0.1714145283,
+
                                                                     "name": "Name: 664"
                                                                   }
                                                                 ]
                                                               },
                                                               {
-                                                                "distance": 0.1962190988,
+
+name:"d50",
                                                                 "children": [
                                                                   {
-                                                                    "distance": 0.2946267476,
+
                                                                     "name": "Name: 598"
                                                                   },
                                                                   {
-                                                                    "distance": 0.1121933395,
+
                                                                     "children": [
                                                                       {
-                                                                        "distance": 0.1824334081,
+
                                                                         "name": "Name: 867"
                                                                       },
                                                                       {
-                                                                        "distance": 0.1824334081,
+
                                                                         "name": "Name: 1780"
                                                                       }
                                                                     ]
@@ -430,30 +475,33 @@ define([
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.5109781416,
+
+name:"d51",
                                                         "children": [
                                                           {
-                                                            "distance": 0.3839107055,
+
+name:"d52",
                                                             "children": [
                                                               {
-                                                                "distance": 0.392245107,
+
                                                                 "name": "Name: 1699"
                                                               },
                                                               {
-                                                                "distance": 0.392245107,
+
                                                                 "name": "Name: 2001"
                                                               }
                                                             ]
                                                           },
                                                           {
-                                                            "distance": 0.2165618304,
+
+name:"d53",
                                                             "children": [
                                                               {
-                                                                "distance": 0.5595939822,
+
                                                                 "name": "Name: 1001"
                                                               },
                                                               {
-                                                                "distance": 0.5595939822,
+
                                                                 "name": "Name: 2176"
                                                               }
                                                             ]
@@ -465,40 +513,44 @@ define([
                                                 ]
                                               },
                                               {
-                                                "distance": 0.3355296621,
+
+name:"d54",
                                                 "children": [
                                                   {
-                                                    "distance": 1.376561446,
+
+name:"d55",
                                                     "children": [
                                                       {
-                                                        "distance": 0.696686202,
+
                                                         "name": "Name: 853"
                                                       },
                                                       {
-                                                        "distance": 0.696686202,
+
                                                         "name": "Name: 4264"
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.3902048872,
+
+name:"d56",
                                                     "children": [
                                                       {
-                                                        "distance": 0.9347835865,
+
+name:"d57",
                                                         "children": [
                                                           {
-                                                            "distance": 0.7482591745,
+
                                                             "name": "Name: 262"
                                                           },
                                                           {
-                                                            "distance": 0.2047307906,
+
                                                             "children": [
                                                               {
-                                                                "distance": 0.5435283839,
+
                                                                 "name": "Name: 3426"
                                                               },
                                                               {
-                                                                "distance": 0.5435283839,
+
                                                                 "name": "Name: 4152"
                                                               }
                                                             ]
@@ -506,14 +558,15 @@ define([
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.9068156662,
+
+name:"d58",
                                                         "children": [
                                                           {
-                                                            "distance": 0.7762270948,
+
                                                             "name": "Name: 1577"
                                                           },
                                                           {
-                                                            "distance": 0.7762270948,
+
                                                             "name": "Name: 2929"
                                                           }
                                                         ]
@@ -525,46 +578,52 @@ define([
                                             ]
                                           },
                                           {
-                                            "distance": 1.350206231,
+
+name:"d59",
                                             "children": [
                                               {
-                                                "distance": 1.324859918,
+
+name:"d60",
                                                 "children": [
                                                   {
-                                                    "distance": 1.159247377,
+
                                                     "name": "Name: 2962"
                                                   },
                                                   {
-                                                    "distance": 1.159247377,
+
                                                     "name": "Name: 3058"
                                                   }
                                                 ]
                                               },
                                               {
-                                                "distance": 0.7520045443,
+
+name:"d61",
                                                 "children": [
                                                   {
-                                                    "distance": 0.6453997817,
+
+name:"d62",
                                                     "children": [
                                                       {
-                                                        "distance": 0.5651720927,
+
+name:"d63",
                                                         "children": [
                                                           {
-                                                            "distance": 0.3209154717,
+
+name:"d64",
                                                             "children": [
                                                               {
-                                                                "distance": 0.2006154049,
+
                                                                 "name": "Name: 60"
                                                               },
                                                               {
-                                                                "distance": 0.05467875555,
+
                                                                 "children": [
                                                                   {
-                                                                    "distance": 0.1459366494,
+
                                                                     "name": "Name: 1983"
                                                                   },
                                                                   {
-                                                                    "distance": 0.1459366494,
+
                                                                     "name": "Name: 4131"
                                                                   }
                                                                 ]
@@ -572,21 +631,23 @@ define([
                                                             ]
                                                           },
                                                           {
-                                                            "distance": 0.1567366503,
+
+name:"d65",
                                                             "children": [
                                                               {
-                                                                "distance": 0.3647942263,
+
                                                                 "name": "Name: 2602"
                                                               },
                                                               {
-                                                                "distance": 0.1667330554,
+
+name:"d66",
                                                                 "children": [
                                                                   {
-                                                                    "distance": 0.1980611709,
+
                                                                     "name": "Name: 1547"
                                                                   },
                                                                   {
-                                                                    "distance": 0.1980611709,
+
                                                                     "name": "Name: 3079"
                                                                   }
                                                                 ]
@@ -596,30 +657,33 @@ define([
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.1238947733,
+
+name:"d67",
                                                         "children": [
                                                           {
-                                                            "distance": 0.4900236537,
+
+name:"d68",
                                                             "children": [
                                                               {
-                                                                "distance": 0.4727845423,
+
                                                                 "name": "Name: 775"
                                                               },
                                                               {
-                                                                "distance": 0.4727845423,
+
                                                                 "name": "Name: 1933"
                                                               }
                                                             ]
                                                           },
                                                           {
-                                                            "distance": 0.3771160005,
+
+name:"d69",
                                                             "children": [
                                                               {
-                                                                "distance": 0.5856921955,
+
                                                                 "name": "Name: 3583"
                                                               },
                                                               {
-                                                                "distance": 0.5856921955,
+
                                                                 "name": "Name: 4076"
                                                               }
                                                             ]
@@ -629,21 +693,23 @@ define([
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.540524724,
+
+name:"d70",
                                                     "children": [
                                                       {
-                                                        "distance": 1.191578027,
+
                                                         "name": "Name: 1046"
                                                       },
                                                       {
-                                                        "distance": 0.5202300454,
+
+name:"d71",
                                                         "children": [
                                                           {
-                                                            "distance": 0.6713479816,
+
                                                             "name": "Name: 2121"
                                                           },
                                                           {
-                                                            "distance": 0.6713479816,
+
                                                             "name": "Name: 3497"
                                                           }
                                                         ]
@@ -659,33 +725,37 @@ define([
                                     ]
                                   },
                                   {
-                                    "distance": 0.7534132514,
+
+name:72,
                                     "children": [
                                       {
-                                        "distance": 2.133169018,
+
+name:73,
                                         "children": [
                                           {
-                                            "distance": 1.660248327,
+
+name:74,
                                             "children": [
                                               {
-                                                "distance": 0.8613499299,
+
                                                 "name": "Name: 1245"
                                               },
                                               {
-                                                "distance": 0.8613499299,
+
                                                 "name": "Name: 2787"
                                               }
                                             ]
                                           },
                                           {
-                                            "distance": 1.352815645,
+
+name:75,
                                             "children": [
                                               {
-                                                "distance": 1.168782612,
+
                                                 "name": "Name: 1935"
                                               },
                                               {
-                                                "distance": 1.168782612,
+
                                                 "name": "Name: 3578"
                                               }
                                             ]
@@ -693,30 +763,35 @@ define([
                                         ]
                                       },
                                       {
-                                        "distance": 1.149285271,
+
+name:71,
                                         "children": [
                                           {
-                                            "distance": 1.294750118,
+
+name:76,
                                             "children": [
                                               {
-                                                "distance": 0.9797336831,
+
+name:77,
                                                 "children": [
                                                   {
-                                                    "distance": 0.4151497904,
+
+name:78,
                                                     "children": [
                                                       {
-                                                        "distance": 0.8158484126,
+
                                                         "name": "Name: 665"
                                                       },
                                                       {
-                                                        "distance": 0.4514520562,
+
+name:79,
                                                         "children": [
                                                           {
-                                                            "distance": 0.3643963564,
+
                                                             "name": "Name: 919"
                                                           },
                                                           {
-                                                            "distance": 0.3643963564,
+
                                                             "name": "Name: 1866"
                                                           }
                                                         ]
@@ -724,30 +799,33 @@ define([
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.3078115072,
+
+name:80,
                                                     "children": [
                                                       {
-                                                        "distance": 0.5628810009,
+
+name:81,
                                                         "children": [
                                                           {
-                                                            "distance": 0.3603056948,
+
                                                             "name": "Name: 885"
                                                           },
                                                           {
-                                                            "distance": 0.3603056948,
+
                                                             "name": "Name: 888"
                                                           }
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.3431809544,
+
+name:82,
                                                         "children": [
                                                           {
-                                                            "distance": 0.5800057414,
+
                                                             "name": "Name: 886"
                                                           },
                                                           {
-                                                            "distance": 0.5800057414,
+
                                                             "name": "Name: 3741"
                                                           }
                                                         ]
@@ -757,40 +835,44 @@ define([
                                                 ]
                                               },
                                               {
-                                                "distance": 0.9738203015,
+
+name:83,
                                                 "children": [
                                                   {
-                                                    "distance": 0.426379964,
+
+name:84,
                                                     "children": [
                                                       {
-                                                        "distance": 0.8105316206,
+
                                                         "name": "Name: 2123"
                                                       },
                                                       {
-                                                        "distance": 0.8105316206,
+
                                                         "name": "Name: 3544"
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.4117358512,
+
+name:85,
                                                     "children": [
                                                       {
-                                                        "distance": 0.4372052504,
+
+name:86,
                                                         "children": [
                                                           {
-                                                            "distance": 0.387970483,
+
                                                             "name": "Name: 3385"
                                                           },
                                                           {
-                                                            "distance": 0.1730098704,
+
                                                             "children": [
                                                               {
-                                                                "distance": 0.2149606126,
+
                                                                 "name": "Name: 2994"
                                                               },
                                                               {
-                                                                "distance": 0.2149606126,
+
                                                                 "name": "Name: 3296"
                                                               }
                                                             ]
@@ -798,21 +880,23 @@ define([
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.277782022,
+
+name:87,
                                                         "children": [
                                                           {
-                                                            "distance": 0.5473937114,
+
                                                             "name": "Name: 1359"
                                                           },
                                                           {
-                                                            "distance": 0.1988045203,
+
+name:88,
                                                             "children": [
                                                               {
-                                                                "distance": 0.348589191,
+
                                                                 "name": "Name: 1854"
                                                               },
                                                               {
-                                                                "distance": 0.348589191,
+
                                                                 "name": "Name: 2489"
                                                               }
                                                             ]
@@ -826,31 +910,35 @@ define([
                                             ]
                                           },
                                           {
-                                            "distance": 1.09919418,
+
+name:89,
                                             "children": [
                                               {
-                                                "distance": 1.157615094,
+
+name:90,
                                                 "children": [
                                                   {
-                                                    "distance": 1.248672729,
+
                                                     "name": "Name: 868"
                                                   },
                                                   {
-                                                    "distance": 0.8012494332,
+
+name:91,
                                                     "children": [
                                                       {
-                                                        "distance": 0.4474232962,
+
                                                         "name": "Name: 2877"
                                                       },
                                                       {
-                                                        "distance": 0.1406463548,
+
+name:92,
                                                         "children": [
                                                           {
-                                                            "distance": 0.3067769414,
+
                                                             "name": "Name: 1017"
                                                           },
                                                           {
-                                                            "distance": 0.3067769414,
+
                                                             "name": "Name: 1018"
                                                           }
                                                         ]
@@ -860,40 +948,45 @@ define([
                                                 ]
                                               },
                                               {
-                                                "distance": 0.7967820922,
+
+name:93,
                                                 "children": [
                                                   {
-                                                    "distance": 0.78634576,
+
+name:94,
                                                     "children": [
                                                       {
-                                                        "distance": 0.8231599714,
+
                                                         "name": "Name: 118"
                                                       },
                                                       {
-                                                        "distance": 0.8231599714,
+
                                                         "name": "Name: 1722"
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "distance": 0.208561845,
+
+name:95,
                                                     "children": [
                                                       {
-                                                        "distance": 0.8484952761,
+
+name:96,
                                                         "children": [
                                                           {
-                                                            "distance": 0.5524486103,
+
                                                             "name": "Name: 3298"
                                                           },
                                                           {
-                                                            "distance": 0.1067984299,
+
+name:97,
                                                             "children": [
                                                               {
-                                                                "distance": 0.4456501803,
+
                                                                 "name": "Name: 1942"
                                                               },
                                                               {
-                                                                "distance": 0.4456501803,
+
                                                                 "name": "Name: 4153"
                                                               }
                                                             ]
@@ -901,37 +994,41 @@ define([
                                                         ]
                                                       },
                                                       {
-                                                        "distance": 0.5328106632,
+
+name:98,
                                                         "children": [
                                                           {
-                                                            "distance": 0.8681332233,
+
                                                             "name": "Name: 4145"
                                                           },
                                                           {
-                                                            "distance": 0.1481990097,
+
+name:99,
                                                             "children": [
                                                               {
-                                                                "distance": 0.4197020539,
+
+name:100,
                                                                 "children": [
                                                                   {
-                                                                    "distance": 0.3002321597,
+
                                                                     "name": "Name: 1510"
                                                                   },
                                                                   {
-                                                                    "distance": 0.3002321597,
+
                                                                     "name": "Name: 1949"
                                                                   }
                                                                 ]
                                                               },
                                                               {
-                                                                "distance": 0.393704649,
+
+name:101,
                                                                 "children": [
                                                                   {
-                                                                    "distance": 0.3262295646,
+
                                                                     "name": "Name: 1945"
                                                                   },
                                                                   {
-                                                                    "distance": 0.3262295646,
+
                                                                     "name": "Name: 1946"
                                                                   }
                                                                 ]
@@ -955,13 +1052,16 @@ define([
                             ]
                           };
 
-                    console.log(tree);
-
                     var $tree = $.jqElem('div').css({width : '800px', height : '500px'}).kbaseTreechart(
 
                         {
-                            lineStyle: 'square', 
-                            dataset : tree
+                            lineStyle: 'square',
+                            fixed : true,
+                            dataset : tree,
+                            displayStyle:'nt',
+                            distance : 50,
+                            layout : 'cluster',
+                            bias : 'leaf',
                         }
 
                     );
