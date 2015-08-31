@@ -69,7 +69,7 @@ define(
     calculateNodeDepths : function(nodes) {
         //we need to know the distance of all nodes from a leaf, in order to use leaf bias. Dammit.
         nodes.forEach(function (node) {
-            if (! node.children && ! node._children) {
+            if (! node.children) {
 
                 node.nodeDepth = 0;
 
@@ -607,15 +607,15 @@ define(
         });
 
         // Update the links
-        var link = chart.selectAll("path.link")
+        var link = chart.selectAll("path.tree-link")
             .data($tree.treeLayout.links($tree.nodes), function(d) { return $tree.uniqueness(d.target) });
 
                         // Enter any new links at the parent's previous position.
                         link.enter().insert("path", "g")
-                                .attr("class", "link")
+                                .attr("class", "tree-link")
                                 .attr('data-link-id', function (d) { return $tree.uniqueness(d.target) } )
                                 .attr('fill', 'none')
-                                .attr('stroke', function (d) { return d.stroke || $tree.options.lineStroke})
+                                .attr('stroke', function (d) { return d.target.lineStroke || $tree.options.lineStroke})
                                 .attr("d", function(d) {
                                     var o = {x: source.x0, y: source.y0};
                                     return $tree.diagonal({source: o, target: o});
@@ -702,7 +702,7 @@ define(
 
         var getYCoords = function(d) {
             var sourceY = d.source.y;
-            var targetY = $tree.options.fixed && (! d.target.children || d.target.length == 0)
+            var targetY = $tree.options.fixed && (! d.target.children || d.target.children.length == 0)
                 ? $tree.options.fixedDepth
                 : d.target.y;
 
