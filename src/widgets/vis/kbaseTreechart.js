@@ -554,6 +554,12 @@ define(
                 else if (!isLeaf && $tree.options.displayStyle.match(/N/)) {
                     return 'visible';
                 }
+                else if (isLeaf && $tree.options.displayStyle.match(/c/) && (d.name != undefined && d.name.length > 0)) {
+                    return 'visible';
+                }
+                else if (!isLeaf && $tree.options.displayStyle.match(/C/) && (d.name != undefined && d.name.length > 0)) {
+                    return 'visible';
+                }
                 else {
                     return 'hidden';
                 }
