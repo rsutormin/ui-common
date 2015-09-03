@@ -29,12 +29,13 @@ define([
 
                         {
                             lineStyle: 'square',
-                            fixed : false,
+                            //fixed : false,
                             dataset : tree,
-                            displayStyle:'Cnt',
-                            distance : 50,
+                            displayStyle:'Nnt',
+                            //distance : 50,
                             layout : 'cluster',
                             //bias : 'leaf',
+                            circleRadius : 3
                         }
 
                     );
