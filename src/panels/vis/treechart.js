@@ -31,9 +31,9 @@ define([
                             lineStyle: 'square',
                             fixed : false,
                             dataset : tree,
-                            displayStyle:'nt',
+                            displayStyle:'Cnt',
                             distance : 50,
-                            layout : 'cluster'
+                            layout : 'cluster',
                             //bias : 'leaf',
                         }
 
